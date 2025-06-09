@@ -12,7 +12,7 @@ body {
   padding: 30px;
   border: 15px;
   border-radius: 30px;
-  max-width:400px;
+  max-width: 400px;
   width: 100%;
   text-align: center;
 }
@@ -25,38 +25,32 @@ body {
   margin-bottom: 15px;
 }
 
-
 .bio {
   font-size: 14px;
   color: black;
   margin-bottom: 15px;
 }
 
-.contact{
+.contact {
   font-size: 14px;
-  margin: 1px ;
-  color:cornflowerblue 
+  margin: 1px;
+  color: cornflowerblue;
 }
 
 .country-select {
   margin-top: 10px;
   padding: 8px;
   width: 100%;
-<<<<<<< HEAD
-  border: 2px solid rgb(255, 132, 0);
-=======
-  border: 2px solid blue;
->>>>>>> b2c7bd2de5f86a09ae3945554ea0df07d3f47927
+  border: 2px solid rgb(255, 132, 0); /* You can change this to blue if preferred */
   font-size: 14px;
   border-radius: 20px;
-  
 }
 
 .contact-btn {
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  background-color: #1e90ff;  
+  background-color: #1e90ff;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -67,11 +61,11 @@ body {
   margin-top: 20px;
 }
 
-<<<<<<< HEAD
 .contact-btn:hover {
   background: #0f75d3;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
   .profile-card {
     padding: 20px;
@@ -83,7 +77,10 @@ body {
     height: 100px;
   }
 
-  .bio, .contact, .country-select, .contact-btn {
+  .bio,
+  .contact,
+  .country-select,
+  .contact-btn {
     font-size: 13px;
   }
 
@@ -103,7 +100,10 @@ body {
     height: 80px;
   }
 
-  .bio, .contact, .country-select, .contact-btn {
+  .bio,
+  .contact,
+  .country-select,
+  .contact-btn {
     font-size: 12px;
   }
 
@@ -111,10 +111,3 @@ body {
     padding: 6px 12px;
   }
 }
-=======
-
-
-.contact-btn:hover {
-  background: #0f75d3;
-}
->>>>>>> b2c7bd2de5f86a09ae3945554ea0df07d3f47927
