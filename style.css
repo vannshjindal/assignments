@@ -1,0 +1,20 @@
+#red-text{
+    color : magenta;
+    font-size : 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px solid salmon;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+
+}
+span{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+button:hover{
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+}
