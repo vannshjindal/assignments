@@ -41,7 +41,7 @@ body {
   margin-top: 10px;
   padding: 8px;
   width: 100%;
-  border: 2px solid rgb(255, 132, 0); /* You can change this to blue if preferred */
+  border: 2px solid rgb(255, 132, 0); 
   font-size: 14px;
   border-radius: 20px;
 }
