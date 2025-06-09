@@ -65,7 +65,7 @@ body {
   background: #0f75d3;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .profile-card {
     padding: 20px;
