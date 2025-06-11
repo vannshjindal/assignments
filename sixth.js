@@ -1,20 +1,9 @@
-const person = {
-    name: "Vansh Jindal",
-    age : 22,
-    address: {
-        city : "Jaipur",
-        state : "Rajasthan"
-    },
-    greet : function greet(){
-      return "heyyyyy!";
-    }}
+// call, apply, bind
 
-console.log(person.greet());
-console.log(person.name);
+function printName() {
+  console.log(this.name);
+}
 
-let personstring = JSON.stringify(person);
-localStorage.setItem("person", personstring);
-let res = JSON.parse(personstring);
+const exampleFun = printName.bind({ name: "John" });
 
-console.log(localStorage.getItem("person"));
-console.log(res.name)
+exampleFun(); // Output: John
