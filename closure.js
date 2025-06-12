@@ -35,7 +35,7 @@ console.log(counter1());
 
 
 
-DOUBTS-------------------------------
+//DOUBTS-------------------------------
 for (var i = 0; i <= 3; i++) {
   setTimeout(function () {
     console.log(i);
@@ -47,7 +47,7 @@ for (let i = 0; i <= 3; i++) {
     console.log(i);
   }, 1000);
 }
---------------------------------------
+//--------------------------------------
 
 
 function makecounter(){
