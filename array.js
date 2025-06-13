@@ -1,31 +1,22 @@
-// var arr = [1, 2, 3, 4, 5];
-// arr.forEach(function(val){
-//     console.log(val+"  Hello");
-// })
+let arr = new Array(5);
+let sum = 0;
 
 
-// console.log("start!");
+for(let i = 0; i<arr.length;i++){
+    arr[i] = Number(prompt("Enter your number: "))
+    sum = sum + arr[i]
 
+    }
+    console.log(arr)
+console.log("Sum of all elements is: " + sum);
 
+let arr1 = [2,3,4,5,6,7,8]
 
+let min = arr1[0];
 
-var arr = [1, 2, 3, 4, 5];
-
-var ans = arr.filter(function(val){
-    if(val>=2){return true}
-    else return false;
-
-})
-
-console.log(ans); 
-
-
-
-
-var obj = {
-    name : "Vansh", 
-    age : 22,
-    designation : "Software Engineer"
+for(i=1;i<arr1.length;i++){
+    if(arr[i]< min){
+        min = arr1[i];
+    }
 }
-
-console.log(obj.name);
+    console.log("Minimum element is: " + min)
