@@ -9,7 +9,7 @@ const greet = outer();
 greet(); 
 
 
-function counter() {
+function counter() {    
   let count = 0;
   return function () {
     count++;
@@ -35,7 +35,7 @@ console.log(counter1());
 
 
 
-//DOUBTS-------------------------------
+// //DOUBTS-------------------------------
 for (var i = 0; i <= 3; i++) {
   setTimeout(function () {
     console.log(i);
@@ -45,9 +45,9 @@ for (var i = 0; i <= 3; i++) {
 for (let i = 0; i <= 3; i++) {
   setTimeout(function () {
     console.log(i);
-  }, 1000);
-}
-//--------------------------------------
+  }, 5000);
+ }
+// //--------------------------------------
 
 
 function makecounter(){
@@ -80,6 +80,5 @@ const size70 = makeTextsizer(70);
 const size100 = makeTextsizer(100);   
 btn.addEventListener("click",size100);
 
-    
 
 
