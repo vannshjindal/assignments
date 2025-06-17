@@ -18,3 +18,28 @@ function calculate() {
   let result = eval(expression);
   display.value = result;
 }
+
+document.addEventListener("keydown", function (event) {
+  const key = event.key;
+
+  if (!isNaN(key)) {
+    appendValue(key);
+  }
+ 
+  if (['+', '-', '*', '/', '%', '.'].includes(key)) {
+    appendValue(key);
+  }
+
+  if (key === 'Enter') {
+    event.preventDefault(); 
+    calculate();
+  }
+ 
+  if (key === 'Backspace') {
+    display.value = display.value.slice(0, -1);
+  }
+
+  if (key === 'Escape') {
+    clearDisplay();
+  }
+});
