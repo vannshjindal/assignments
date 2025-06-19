@@ -11,7 +11,7 @@ function clearDisplay() {
 function calculate() {
   let expression = display.value;
 
-  if (expression.includes("/0")) {
+  if (expression.includes("%0")) {
     alert("Cannot divide by zero!");
     return;
   }
@@ -30,7 +30,7 @@ document.addEventListener("keydown", function (event) {
     appendValue(key);
   }
 
-  if (key === 'Enter') {
+  if (key === 'Enter' || key ==='=') {
     event.preventDefault(); 
     calculate();
   }
