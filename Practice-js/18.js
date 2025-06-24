@@ -13,10 +13,11 @@ let str = 'hello HELLO'
 let res = {}
 const obj = [
     {name: 'jay', state: 'MP'},
-     {name: 'peeyush', state: 'raj'},
-      {name: 'jaya', state: 'UP'},
-       {name: 'vansh', state: 'MP'}
+    {name: 'peeyush', state: 'raj'},
+    {name: 'jaya', state: 'UP'},
+    {name: 'vansh', state: 'MP'}
 ]
+
 
 obj.forEach(x=>{
 if(res[x.state]){
