@@ -9,13 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-<<<<<<< HEAD
   "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
   }
-=======
-  "type": "commonjs"
->>>>>>> b2c7bd2de5f86a09ae3945554ea0df07d3f47927
 }
